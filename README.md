@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/github/license/JonatanKovalik/Java-LearningExercises?style=flat)](https://github.com/JonatanKovalik/Java-LearningExercises/blob/main/LICENSE)
 [![GitHub last commit](https://img.shields.io/github/last-commit/JonatanKovalik/Java-LearningExercises?style=flat)](https://github.com/JonatanKovalik/Java-LearningExercises/commits/main)
-[![GitHub top language](https://img.shields.io/github/languages/top/JonatanKovalik/Java-LearningExercises?style=flat)](https://github.JonatanKovalik/Java-LearningExercises)
+[![GitHub top language](https://img.shields.io/github/languages/top/JonatanKovalik/Java-LearningExercises?style=flat)](https://github.com/JonatanKovalik/Java-LearningExercises)
 
 ## 📜 Project Overview
 
@@ -10,14 +10,18 @@ This repository is a collection of various practice projects and small applicati
 
 ## ✨ Projects / Exercises Included
 
-* **[Exercise/Project Name 1]:** [Brief description, e.g., "A basic command-line application demonstrating user input and conditional logic."]
-* **[Exercise/Project Name 2]:** [Brief description, e.g., "Implementation of a simple class hierarchy to explore inheritance and polymorphism."]
+Here are some of the projects and exercises included in this repository:
+
+* **`ConsoleFundamentals` (Java Console Application):** A basic command-line application demonstrating core Java concepts such as variable declaration (`byte`, `int`, `String`), random number generation, conditional logic (`if-else`), `ArrayList` usage, and basic console output with ANSI color codes. It also includes `Thread.sleep` for pausing execution.
+    * **File:** `ConsoleFundamentals.java` (or similar name chosen by you)
+* **`MonkeySimulator` (Java Swing GUI Application):** A simple GUI application built with Java Swing that displays an image and text. It simulates a "monkey" performing random actions (eating, sleeping, making a voice) with pauses, demonstrating basic Swing components (`JFrame`, `JLabel`, `ImageIcon`), layout management (`BorderLayout`), and event looping for simulation.
+    * **Files:** `MonkeySimulator.java` (main application file), potentially `Monkey.java` (for the `Monkey` class model).
 * **[Exercise/Project Name 3]:** [Brief description, e.g., "A small program showcasing array manipulation and basic data structures."]
 * [List all other exercises/mini-projects here with brief descriptions.]
 
 ## 🛠️ Technologies Used
 
-* **Language:** Java [Version, e.g., Java 11 / Java 17]
+* **Language:** Java (Specify your JDK version, e.g., Java 17)
 * **IDE:** [e.g., IntelliJ IDEA, Eclipse, Visual Studio Code]
 * **Version Control:** Git, GitHub
 
@@ -29,18 +33,24 @@ To compile and run these Java exercises, you will need a Java Development Kit (J
     ```bash
     git clone [https://github.com/JonatanKovalik/Java-LearningExercises.git](https://github.com/JonatanKovalik/Java-LearningExercises.git)
     ```
-2.  **Navigate to the project directory:**
+2.  **Navigate to the specific project directory:**
     ```bash
     cd Java-LearningExercises/[ProjectOrExerciseName]
     ```
+    * For `ConsoleFundamentals`: `cd Java-LearningExercises/ConsoleFundamentals`
+    * For `MonkeySimulator`: `cd Java-LearningExercises/MonkeySimulator`
 3.  **Compile the Java files:**
     ```bash
     javac [YourMainClass].java
     ```
+    * For `ConsoleFundamentals`: `javac ConsoleFundamentals.java`
+    * For `MonkeySimulator`: `javac MonkeySimulator.java Monkey.java` (if `Monkey.java` is a separate file)
 4.  **Run the compiled program:**
     ```bash
     java [YourMainClass]
     ```
+    * For `ConsoleFundamentals`: `java ConsoleFundamentals`
+    * For `MonkeySimulator`: `java MonkeySimulator`
     *(If using an IDE like IntelliJ or Eclipse, simply open the project and run it from within the IDE.)*
 
 ## 🧠 Learning & Development
